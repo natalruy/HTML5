@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+UN<style>
+h4 {
+color:red;
+}
+.verde{color:green;}
+#unico{color:orange}
+
+</style>
+<title>Teste</title>
+<meta charset="utf-8"
+</head>
+<body>
+<table border="1" width="100%">
+<tr>
+<td>
+					primeira linha
+			<b style="color:red">negrito</b>
+								<strong>negrito 2</strong>
+								<i id="unico" >italico</i>
+								<em class="verde">italido 2</em>
+								<h4>h4</h4>
+													</td>
+													<td>
+														<del>riscado</del>
+								<strike>riscado 2</strike>
+								<u>underline</u>
+								<p>paragrafo</p>
+								
+													</td>
+												</tr>
+								</table>
+
+
+								<hr>
+								
+								<table border="1" cellspacing="0" width="100%">
+												<tr>
+																<td bgcolor="yellow">l1c1</td>
+																<td>l1c2</td>
+												</tr>
+												<tr>
+																<td colspan="2">l2c1</td>
+												</tr>
+												<tr>
+																<td>
+															<ol type="I">
+								 				<li>filmes</li>
+								 				<li>series</li>
+								 				<li>musicas</li>
+								 </ol>
+																</td>
+																<td>
+												<ul type="square">
+								 				<li>filmes</li>
+								 				<li>series</li>
+								 				<li>musicas</li>
+								 </ul>
+																				
+																</td>
+												</tr>
+								</table>
+							
+								 <form>
+								 			nome:	<input type="text"><br>
+		 			senha:<input type="password"><br>
+								 			sexo:<br>
+					 			masculino:<input type="radio" name="sexo" value="M"><br>
+Feminino:<input type="radio" name="sexo" value="F"><br>
+preferencias:<br>filmes:<input type="checkbox" name="filmes" value="filmes">
+series:<input type="checkbox" name="series" value="series"><br>
+<select name="nota">
+<option value="selecione">selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+</select><br>
+<textarea row="5" col="50"></textarea><br>
+<input type="submit">
+</form>
+</body>
+
+</html>
